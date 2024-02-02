@@ -2,11 +2,20 @@
 
 Crawl recipes from [Rewe Rezepte](https://www.rewe.de/rezeptsammlung/) and embed them into a LLM.
 
-## Fetch data
+## Setup Python env
 
 ```
+# Create venv
+python3 -m venv venv
 # Activate python env
 source venv/bin/activate
+# Install deps
+pip3 install -r requirements.txt
+```
+
+## Crawl data
+
+```
 # crawl recipes
 scrapy crawl recipe -o recipes2.jsonl
 ```

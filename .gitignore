@@ -1,0 +1,7 @@
+__pycache__
+/venv
+scraper/rewe_recipes/crawls
+scraper/rewe_recipes/recipes2.jsonl
+*.gguf
+db-data
+search_embeddings.py
